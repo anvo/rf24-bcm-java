@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <jardesc>
-    <jar path="librf24-bcm-java/rf24-bcm-java.jar"/>
-    <options buildIfNeeded="true" compress="true" descriptionLocation="/librf24-bcm-java/rf24-bcm-java.jardesc" exportErrors="false" exportWarnings="false" includeDirectoryEntries="false" overwrite="false" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+    <jar path="rf24-bcm-java/rf24-bcm-java.jar"/>
+    <options buildIfNeeded="true" compress="true" descriptionLocation="/rf24-bcm-java/rf24-bcm-java.jardesc" exportErrors="false" exportWarnings="false" includeDirectoryEntries="false" overwrite="false" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
     <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
     <selectedProjects/>
-    <manifest generateManifest="false" manifestLocation="/librf24-bcm-java/java/META-INF/MANIFEST.MF" manifestVersion="1.0" reuseManifest="false" saveManifest="false" usesManifest="true">
+    <manifest generateManifest="false" manifestLocation="/rf24-bcm-java/java/META-INF/MANIFEST.MF" manifestVersion="1.0" reuseManifest="false" saveManifest="false" usesManifest="true">
         <sealing sealJar="false">
             <packagesToSeal/>
             <packagesToUnSeal/>
         </sealing>
     </manifest>
     <selectedElements exportClassFiles="true" exportJavaFiles="false" exportOutputFolder="false">
-        <file path="/librf24-bcm-java/.project"/>
-        <file path="/librf24-bcm-java/.classpath"/>
-        <javaElement handleIdentifier="=librf24-bcm-java/java"/>
-        <javaElement handleIdentifier="=librf24-bcm-java/test"/>
+        <file path="/rf24-bcm-java/.project"/>
+        <javaElement handleIdentifier="=rf24-bcm-java/java"/>
+        <javaElement handleIdentifier="=rf24-bcm-java/examples"/>
+        <file path="/rf24-bcm-java/.classpath"/>
     </selectedElements>
 </jardesc>
