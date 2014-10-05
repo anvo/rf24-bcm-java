@@ -30,6 +30,21 @@ For the **Raspberry Pi** you can download the following compiled binaries:
 * nRF24L01 + JNI Wrapper library [librf24bcmjava.so](http://anvo.github.io/rf24-bcm-java/download/librf24bcmjava.so)
 * Java wrapper jar [rf24-bcm-java.jar](http://anvo.github.io/rf24-bcm-java/download/rf24-bcm-java.jar)
 
+#### Run
 To run the included GettingStarted example:
 
 `java -Djava.library.path=. -jar rf24-bcm-java.jar`
+
+#### Error
+
+You may get the following error:
+
+    bcm2835_init: Unable to open /dev/mem: Permission denied
+    #
+    # A fatal error has been detected by the Java Runtime Environment: 
+    #
+    #  SIGSEGV (0xb) at pc=0x42d3077c, pid=27571, tid=1086088304
+
+The nRF24L01 library requires access to `/dev/mem` which is by default only possible for root:
+
+`sudo java -Djava.library.path=. -jar rf24-bcm-java.jar`
